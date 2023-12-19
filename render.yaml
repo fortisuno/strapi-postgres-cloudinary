@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: conejero-cms
     env: node
     plan: free
     buildCommand: yarn install && yarn build
@@ -30,5 +30,5 @@ services:
         generateValue: true
 
 databases:
-  - name: strapi
+  - name: conejero-db
     plan: free
